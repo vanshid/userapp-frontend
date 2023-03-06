@@ -1,0 +1,40 @@
+@font-face {
+  font-family: gotham;
+  src: url('./fonts/gotham-medium.otf');
+}
+
+@font-face {
+  font-family: gothamBook;
+  src: url('./fonts/gotham-book.otf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: gotham !important;
+  background-color: #F6F5FB;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #212529 !important; */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: gotham !important;
+}
+
+p {
+  font-family: gothamBook !important;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.infinite-scroll-component {
+  overflow: hidden !important;
+}

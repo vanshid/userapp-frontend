@@ -1,0 +1,17 @@
+.box-model {
+  margin-top: 1vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  margin-bottom: 1vh;
+  width: calc(100% - 4vh);
+  height: 91vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ui.search {
+  margin-top: 50px;
+  text-align: center;
+}
+
+i {
+  cursor: pointer;
+}
